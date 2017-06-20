@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/event_title_label"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="32dp"
+        android:layout_x="25dp"
+        android:layout_y="46dp"
+        android:text="Event Title:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/event_title_label"
+        android:layout_alignBottom="@+id/event_title_label"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/event_title_label"
+        android:layout_x="147dp"
+        android:layout_y="35dp"
+        android:text="NO DATA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eventDate"
+        android:layout_alignStart="@+id/eventTime"
+        android:layout_x="25dp"
+        android:layout_y="166dp"
+        android:text="Event Date:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/eventDate"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/eventTitle"
+        android:layout_below="@+id/eventTitle"
+        android:layout_gravity="center"
+        android:layout_marginTop="41dp"
+        android:layout_x="144dp"
+        android:layout_y="158dp"
+        android:text="NO DATA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/event_title_label"
+        android:layout_gravity="center"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="156dp"
+        android:layout_x="141dp"
+        android:layout_y="292dp"
+        android:text="NO DATA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="302dp"
+        android:text="Event Time:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+</AbsoluteLayout>
